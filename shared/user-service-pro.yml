@@ -1,5 +1,5 @@
 server:
-  port: 8762
+  port: 8769
 
 
 spring:
@@ -27,4 +27,4 @@ spring:
       virtual-host: /
 
 
-foo: foo version 1
+foo: foo version 2
