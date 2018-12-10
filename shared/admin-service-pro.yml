@@ -1,6 +1,6 @@
 
 server:
-  port: 9999
+  port: 9998
 
 spring:
   boot:
@@ -21,4 +21,4 @@ eureka:
 logging:
   file: "logs/admin-service-pro.log"
   
-from:123456
+#from:123456
