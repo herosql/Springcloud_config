@@ -16,7 +16,7 @@ eureka:
   instance:
     metadata-map:
       user.name: admin
-      user.password: 123456789
+      user.password: 123456
 
 logging:
   file: "logs/admin-service-pro.log"
