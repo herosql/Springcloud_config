@@ -30,14 +30,17 @@ eureka:
 management:
   security:
     enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
 
 feign:
   hystrix:
     enabled: true
+
+spring:
+    cloud:
+      bus:
+        trace:
+          enabled: true #开启消息总线
+        enabled: true
   
 
 
